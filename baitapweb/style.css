@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 20%;
+    background-color: #101215;
+}
+
+
+.header{
+    margin: auto;
+    display: flex;
+    width: 67%;
+    height: 20%;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 5px;
+    position: sticky;
+    background-color: #101215;
+    align-items: center;
+}
+.logo, .nav-links123 {
+    display: flex;
+}
+
+.logo{
+
+}
+.nav123{
+
+    flex: 1;
+}
+
+.nav-links123{
+    margin: auto;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    -webkit-text-fill-color: tan;
+    text-transform: uppercase;
+    font-weight: 600
+
+}
+
+.nav-link123:hover{
+    text-decoration-color: green;
+
+}
+.seconds{
+    content: "";
+    width: 100%;
+    height: 510px;
+    margin: auto;
+    background-image: url("./img/blurred1.jpg");
+    align-items: center;
+    display: flex;
+}
+
+.carousel{
+    width: 67%;
+    margin: auto;
+}
+
+.content{
+    width: 100%;
+    height: 300px;
+    z-index: -2;
+    margin: 40px auto;
+
+
+}
+
+.boxinfomation{
+    margin:  auto;
+    width: 1200px;
+    height: 100px;
+    background: black;
+    align-items: center;
+}
+.box1{
+    display: flex;
+}
+.box2{
+    display: flex;
+}
+
+.fas{
+    margin-left: 30px;
+}
+.textcontent{
+    -webkit-text-fill-color: #f9b552;
+}
+
+.text1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.text2{
+    margin-top: 5px;
+    margin-left: 30px;
+} 
+.list-box{
+    align-items: center;
+    margin: auto;
+    
+}
+.h2{
+    background-color: white;
+}
+.boxcontent{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: auto;
+    flex: 1;
+    
+    
+}
+
+.listboxs{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    width:70%;
+}
+
+.note{
+    width: 83%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.content2{
+    background-color: white;
+    margin:auto;
+    align-items: center;
+}
+
+.listbox2{
+    margin: 90px ;
+    align-items: center;
+    display: flex;
+
+}
+.boxinf{
+    color: #f9b552;
+    width: 80%;
+    height: 100px;
+    background-color: #101215;
+    margin: auto;
+    align-items: center;
+}
+.box1abc{
+    margin:auto;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+}
+
+.note2{
+    width: 81%;
+    height: 890px;
+    margin: auto;
+}
+
+.img-box-2{
+    width: 340px;
+    height: 240px;
+
+}
+
+.buttonxemthem{
+    background-color: white;
+    width: 100%;
+    height: 110px;
+    
+}
+
+.boxbutton{
+    width: 177px;
+    height: 50px;
+    background-image: url("./img/playForFree.png");
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding-top: 12px;
+    
+
+}
+.bottom{
+    width: 100%;
+    height: 380px;
+}
+.boxBotton{
+    width: 45%;
+    height: 100px;
+    margin: auto;
+
+
+}
+
+.bottom,.bottomText{
+    text-align: center;
+    font-size: 13px;
+    color: white; 
+    padding-top: 44px;
+}
+
+.ender{
+    flex: 1px;
+    justify-content: space-around;
+    margin: 35px auto;
+
+}
+
+.Ender2{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 45%;
+}
+
+.boxbutton22{
+    width: 177px;
+    height: 50px;
+    background-image: url("./img/playForFree.png");
+    font-size: 17px;
+    padding-top: 12px;
+    margin: auto;
+
+
+}
+
+.boxbutton223{
+    margin: auto;
+   
+}
